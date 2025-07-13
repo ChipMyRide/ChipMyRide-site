@@ -8,7 +8,7 @@ export default function ChipMyRidePage() {
           <img
             src="/chipmyride-banner.png"
             alt="Chip My Ride Banner"
-            className="h-64 w-full object-contain rounded-3xl"
+            className="h-64 w-full object-contain rounded-[32px]"
           />
         </div>
 
