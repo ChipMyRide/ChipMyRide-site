@@ -15,9 +15,8 @@ export default function ChipMyRidePage() {
         <img
           src="/chipmyride-banner.png"
           alt="Chip My Ride Full Banner"
-          className="w-full max-w-screen object-contain aspect-[728/90]"
+          className="w-full h-[90px] object-contain"
         />
-
       </header>
 
       <section className="max-w-4xl mx-auto py-12 px-4 grid gap-6">
