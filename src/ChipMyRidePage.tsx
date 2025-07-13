@@ -25,11 +25,10 @@ export default function ChipMyRidePage() {
               { name: "Vmax Aufhebung", price: "350 €" },
               { name: "DPF / AGR / OPF Abschaltung", price: "350 €" },
               { name: "Getriebeoptimierung", price: "350 €" },
-              { name: "VCDS Codierung", price: "50 €" },
             ].map((item, index) => (
               <div
                 key={index}
-                className="flex items-center justify-between bg-white text-black rounded-xl p-4 hover:bg-gray-100 transition duration-300"
+                className="flex items-center justify-between bg-cyan-900 text-white rounded-xl p-4 hover:bg-cyan-800 transition duration-300"
               >
                 <span className="font-semibold text-left w-1/3">{item.name}</span>
                 <span className="text-center w-1/3">{item.price}</span>
@@ -41,6 +40,17 @@ export default function ChipMyRidePage() {
                 </a>
               </div>
             ))}
+            {/* VCDS Codierung zentriert */}
+            <div className="flex items-center justify-between bg-cyan-900 text-white rounded-xl p-4 hover:bg-cyan-800 transition duration-300 md:col-span-2 md:mx-auto max-w-md">
+              <span className="font-semibold text-left w-1/3">VCDS Codierung</span>
+              <span className="text-center w-1/3">50 €</span>
+              <a
+                href="/vcdscodierung"
+                className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold"
+              >
+                Infos
+              </a>
+            </div>
           </div>
           <a
             href="/kontakt"
