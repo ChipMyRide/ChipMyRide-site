@@ -7,7 +7,10 @@ export default function ChipMyRidePage() {
   const [submitted, setSubmitted] = useState(false);
 
   return (
-    <main className="min-h-screen bg-black text-white font-sans bg-[url('/leiterbahn-bg-cleaned.png')] bg-cover bg-fixed">
+    <main
+      className="min-h-screen bg-black text-white font-sans bg-cover bg-fixed"
+      style={{ backgroundImage: "url('/leiterbahn-bg.png')" }}
+    >
       <header className="w-full h-[25vh] flex items-center justify-center">
         <img
           src="/logo-banner.png"
@@ -39,7 +42,7 @@ export default function ChipMyRidePage() {
         </ul>
       </section>
 
-      <section className="bg-gray-900 py-10 px-4 text-center">
+      <section className="py-10 px-4 text-center">
         <h2 className="text-2xl font-semibold mb-4">Kontaktformular</h2>
         {!submitted ? (
           <form
