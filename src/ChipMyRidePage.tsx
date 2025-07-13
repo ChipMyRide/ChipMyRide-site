@@ -47,7 +47,7 @@ export default function ChipMyRidePage() {
             href="/kontakt"
             className="mt-8 px-6 py-2 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl"
           >
-            Termin sichern
+            Tuning sichern
           </a>
         </div>
 
