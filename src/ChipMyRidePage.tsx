@@ -48,7 +48,7 @@ export default function ChipMyRidePage() {
                 <span className="font-bold text-left w-1/3 text-white">{item.name}</span>
                 <span className="text-center w-1/3 font-bold text-white">{item.price}</span>
                 <a
-                  href={`/${slugify(item.name)}`}
+                  href="#"
                   className="mt-1 px-4 py-1 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl text-sm text-center"
                 >
                   Infos
@@ -90,7 +90,7 @@ export default function ChipMyRidePage() {
                 <span className="font-bold text-left w-1/3 text-white">{item.name}</span>
                 <span className="text-center w-1/3 font-bold text-white">{item.price}</span>
                 <a
-                  href={`/${slugify(item.name)}`}
+                  href="#"
                   className="mt-1 px-4 py-1 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl text-sm text-center"
                 >
                   Infos
