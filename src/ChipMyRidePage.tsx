@@ -1,14 +1,5 @@
 import './index.css';
 
-const slugify = (text) => {
-  return text.normalize('NFD')
-    .replace(/[^a-zA-Z0-9 ]/g, '') // Sonderzeichen entfernen
-    .replace(/\s+/g, '-')         // Leerzeichen durch Bindestrich
-    .toLowerCase();
-};
-
-
-
 export default function ChipMyRidePage() {
   return (
     <div className="min-h-screen bg-black text-white bg-cover bg-fixed" style={{ backgroundImage: "url('/leiterbahn-bg-cleaned.png')" }}>
@@ -23,7 +14,7 @@ export default function ChipMyRidePage() {
 
         {/* Slogan unter dem Logo */}
         <div className="text-center mt-4">
-          <p className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-orange-500">Verpass deinem Auto mehr Charakter.</p>
+          <p className="text-xl font-semibold text-white">Verpass deinem Auto mehr Charakter.</p>
         </div>
 
         {/* Preis-Kacheln */}
