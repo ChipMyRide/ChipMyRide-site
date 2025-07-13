@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './index.css';
 
+import './index.css';
 import ChipMyRidePage from './ChipMyRidePage';
 import Stage1InfoPage from './Stage1InfoPage';
 
