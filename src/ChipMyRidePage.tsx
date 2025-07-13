@@ -34,7 +34,7 @@ export default function ChipMyRidePage() {
                 <span className="text-center w-1/3">{item.price}</span>
                 <a
                   href={`/${item.name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()}`}
-                  className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold"
+                  className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold bg-orange-500/10 rounded-full px-3 py-1 text-center"
                 >
                   Infos
                 </a>
@@ -46,7 +46,7 @@ export default function ChipMyRidePage() {
               <span className="text-center w-1/3">50 €</span>
               <a
                 href="/vcdscodierung"
-                className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold"
+                className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold bg-orange-500/10 rounded-full px-3 py-1 text-center"
               >
                 Infos
               </a>
@@ -75,7 +75,7 @@ export default function ChipMyRidePage() {
                 <span className="text-center w-1/3">{item.price}</span>
                 <a
                   href={`/${item.name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()}`}
-                  className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold"
+                  className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold bg-orange-500/10 rounded-full px-3 py-1 text-center"
                 >
                   Infos
                 </a>
