@@ -30,8 +30,8 @@ export default function ChipMyRidePage() {
                 key={index}
                 className="flex items-center justify-between bg-cyan-900 text-white rounded-xl p-4 hover:bg-cyan-800 transition duration-300"
               >
-                <span className="font-semibold text-left w-1/3">{item.name}</span>
-                <span className="text-center w-1/3">{item.price}</span>
+                <span className="font-bold text-left w-1/3 text-black">{item.name}</span>
+                <span className="text-center w-1/3 font-bold text-black">{item.price}</span>
                 <a
                   href={`/${item.name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()}`}
                   className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold"
@@ -42,8 +42,8 @@ export default function ChipMyRidePage() {
             ))}
             {/* VCDS Codierung zentriert */}
             <div className="flex items-center justify-between bg-cyan-900 text-white rounded-xl p-4 hover:bg-cyan-800 transition duration-300 md:col-span-2 md:mx-auto max-w-md">
-              <span className="font-semibold text-left w-1/3">VCDS Codierung</span>
-              <span className="text-center w-1/3">50 €</span>
+              <span className="font-bold text-left w-1/3 text-black">VCDS Codierung</span>
+              <span className="text-center w-1/3 font-bold text-black">50 €</span>
               <a
                 href="/vcdscodierung"
                 className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold"
@@ -71,8 +71,8 @@ export default function ChipMyRidePage() {
                 key={index}
                 className="flex items-center justify-between bg-cyan-900 text-white rounded-xl p-4 hover:bg-cyan-800 transition duration-300"
               >
-                <span className="font-semibold text-left w-1/3">{item.name}</span>
-                <span className="text-center w-1/3">{item.price}</span>
+                <span className="font-bold text-left w-1/3 text-black">{item.name}</span>
+                <span className="text-center w-1/3 font-bold text-black">{item.price}</span>
                 <a
                   href={`/${item.name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()}`}
                   className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold"
