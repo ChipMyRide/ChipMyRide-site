@@ -22,7 +22,7 @@ export default function ChipMyRidePage() {
               { name: "Stage 3", price: "950 €" },
               { name: "Eco Tuning", price: "450 €" },
               { name: "Pops & Bangs", price: "450 €" },
-              { name: "Vmax Aufhebung", price: "350 €" },
+              { name: "Vmax Aufhebung / Drehzahlbegrenzer", price: "150 €" },
               { name: "DPF / AGR / OPF Abschaltung", price: "350 €" },
               { name: "Getriebeoptimierung", price: "350 €" },
             ].map((item, index) => (
@@ -34,7 +34,7 @@ export default function ChipMyRidePage() {
                 <span className="text-center w-1/3">{item.price}</span>
                 <a
                   href={`/${item.name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()}`}
-                  className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold bg-orange-500/10 rounded-full px-3 py-1 text-center"
+                  className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold"
                 >
                   Infos
                 </a>
@@ -46,7 +46,7 @@ export default function ChipMyRidePage() {
               <span className="text-center w-1/3">50 €</span>
               <a
                 href="/vcdscodierung"
-                className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold bg-orange-500/10 rounded-full px-3 py-1 text-center"
+                className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold"
               >
                 Infos
               </a>
@@ -75,7 +75,7 @@ export default function ChipMyRidePage() {
                 <span className="text-center w-1/3">{item.price}</span>
                 <a
                   href={`/${item.name.replace(/[^a-zA-Z0-9]/g, '').toLowerCase()}`}
-                  className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold bg-orange-500/10 rounded-full px-3 py-1 text-center"
+                  className="text-right w-1/3 text-sm text-orange-400 hover:text-orange-500 font-semibold"
                 >
                   Infos
                 </a>
