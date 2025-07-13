@@ -2,7 +2,7 @@ import './index.css';
 
 const slugify = (text) => {
   return text.normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
+    .replace(/[̀-ͯ]/g, '') // sichere diakritische Zeichen-Entfernung
     .replace(/[^a-zA-Z0-9]/g, '')
     .toLowerCase();
 };
