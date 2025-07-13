@@ -2,7 +2,7 @@ import './index.css';
 
 export default function ChipMyRidePage() {
   return (
-    <div className="min-h-screen bg-black text-white bg-cover bg-fixed" style={{ backgroundImage: "url('/leiterbahnen-bg-cleaned.png')" }}>
+    <div className="min-h-screen bg-black text-white bg-cover bg-fixed" style={{ backgroundImage: "url('/leiterbahn-bg-cleaned.png')" }}>
       <div className="w-full max-w-screen-xl mx-auto pt-0">
         <div className="flex justify-center mt-0 pt-2">
           <img
