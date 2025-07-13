@@ -2,10 +2,12 @@ import './index.css';
 
 const slugify = (text) => {
   return text.normalize('NFD')
-    .replace(/[̀-ͯ]/g, '') // sichere diakritische Zeichen-Entfernung
-    .replace(/[^a-zA-Z0-9]/g, '')
+    .replace(/[\u0300-\u036f]/g, '') // entfernt diakritische Zeichen wie Ö, Ü, É
+    .replace(/[^\w\s-]/g, '')        // entfernt Sonderzeichen
+    .replace(/[\s_]+/g, '-')         // ersetzt Leerzeichen durch Bindestrich
     .toLowerCase();
 };
+
 
 export default function ChipMyRidePage() {
   return (
