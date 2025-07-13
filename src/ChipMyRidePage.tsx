@@ -3,12 +3,12 @@ import './index.css';
 export default function ChipMyRidePage() {
   return (
     <div className="min-h-screen bg-black text-white bg-cover bg-fixed" style={{ backgroundImage: "url('/leiterbahn-bg-cleaned.png')" }}>
-      <div className="w-full max-w-screen-xl mx-auto py-8">
-        <div className="flex justify-center">
+      <div className="w-full max-w-screen-xl mx-auto pt-0">
+        <div className="flex justify-start">
           <img
             src="/chipmyride-banner.png"
             alt="Chip My Ride Banner"
-            className="h-48 rounded-2xl ml-12"
+            className="h-64 rounded-2xl ml-24 mt-0"
           />
         </div>
         <div className="p-4">
