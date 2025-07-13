@@ -27,7 +27,7 @@ export default function ChipMyRidePage() {
               return (
                 <div
                   key={index}
-                  className="flex items-center justify-between bg-cyan-600 text-white rounded-xl p-4 hover:bg-cyan-500 transition duration-300"
+                  className="flex items-center justify-between bg-cyan-600 text-white rounded-2xl p-4 hover:bg-cyan-500 transition duration-300"
                 >
                   <span className="font-bold text-left w-1/3">{name}</span>
                   <span className="text-center w-1/3 font-bold">{prices[index]}</span>
@@ -57,7 +57,7 @@ export default function ChipMyRidePage() {
             return (
               <div
                 key={index}
-                className="flex items-center justify-between bg-cyan-600 text-white rounded-xl p-4 hover:bg-cyan-500 transition duration-300"
+                className="flex items-center justify-between bg-cyan-600 text-white rounded-2xl p-4 hover:bg-cyan-500 transition duration-300"
               >
                 <span className="font-bold text-left w-1/3">{name}</span>
                 <span className="text-center w-1/3 font-bold">{prices[index]}</span>
@@ -82,7 +82,7 @@ export default function ChipMyRidePage() {
 
           <h2 className="text-8xl font-bold mt-16 mb-8 text-center text-orange-500">Tuning Konfigurator & Verfügbarkeit</h2>
           <div className="flex flex-col md:flex-row justify-center gap-4">
-            <div className="bg-cyan-600 text-white rounded-xl p-6 w-full md:w-96 hover:bg-cyan-500 transition flex flex-col justify-between">
+            <div className="bg-cyan-600 text-white rounded-2xl p-6 w-full md:w-96 hover:bg-cyan-500 transition flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-semibold mb-2">Chip My Ride Fahrzeugliste</h3>
                 <p className="text-sm mb-4">Fahrzeugabgleich bei unserem Partner Alientech.<br/>Hier kannst du prüfen, ob dein Auto bei uns optimiert werden kann.</p>
@@ -97,7 +97,7 @@ export default function ChipMyRidePage() {
               </a>
             </div>
 
-            <div className="bg-cyan-600 text-white rounded-xl p-6 w-full md:w-96 hover:bg-cyan-500 transition flex flex-col justify-between">
+            <div className="bg-cyan-600 text-white rounded-2xl p-6 w-full md:w-96 hover:bg-cyan-500 transition flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-semibold mb-2">Übersicht über das Potenzial deines Autos</h3>
                 <p className="text-sm mb-4">File-Abgleich durch unseren Partner Tuningfiles Germany.</p>
