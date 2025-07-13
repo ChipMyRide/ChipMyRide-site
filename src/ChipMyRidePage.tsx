@@ -103,7 +103,7 @@ export default function ChipMyRidePage() {
                 <p className="text-sm mb-4">File-Abgleich durch unseren Partner Tuningfiles Germany.</p>
               </div>
               <a
-                href="https://www.alientech-tools.com/tuning-database/"
+                href="https://portal.tuningfiles-germany.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl text-center"
