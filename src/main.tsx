@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ChipMyRidePage from './ChipMyRidePage.jsx';
-import Stage1InfoPage from './Stage1InfoPage.jsx'; // <— deine Info-Seite
+import ChipMyRidePage from './ChipMyRidePage.tsx';
+import Stage1InfoPage from './Stage1InfoPage.tsx'; // <— deine Info-Seite
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
