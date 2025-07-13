@@ -8,7 +8,7 @@ export default function ChipMyRidePage() {
           <img
             src="/chipmyride-banner.png"
             alt="Chip My Ride Banner"
-            className="w-full max-h-64 object-cover"
+            className="h-64 w-full object-contain"
           />
         </div>
 
@@ -59,7 +59,7 @@ export default function ChipMyRidePage() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="flex items-center justify-between bg-white text-black rounded-xl p-4 hover:bg-gray-100 transition duration-300"
+                className="flex items-center justify-between bg-cyan-900 text-white rounded-xl p-4 hover:bg-cyan-800 transition duration-300"
               >
                 <span className="font-semibold text-left w-1/3">{item.name}</span>
                 <span className="text-center w-1/3">{item.price}</span>
