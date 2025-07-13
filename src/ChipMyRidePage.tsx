@@ -2,12 +2,12 @@ import './index.css';
 
 export default function ChipMyRidePage() {
   return (
-    <div className="min-h-screen bg-black text-white">
-      <div className="w-full max-w-screen-xl mx-auto">
+    <div className="min-h-screen bg-black text-white bg-cover bg-fixed" style={{ backgroundImage: "url('/leiterbahn-bg-cleaned.png')" }}>
+      <div className="w-full max-w-screen-xl mx-auto py-8">
         <img
-          src="/chipmyride-banner.png"
-          alt="Chip My Ride Banner"
-          className="w-full h-auto max-w-[1920px] mx-auto"
+          src="/chipmyride-logo.png"
+          alt="Chip My Ride Logo"
+          className="h-32 mx-auto rounded-2xl"
         />
         <div className="p-4">
           <h2 className="text-xl font-bold mt-8 mb-4">Tuning Preise</h2>
