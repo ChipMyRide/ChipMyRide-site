@@ -61,7 +61,7 @@ export default function ChipMyRidePage() {
 
           <h2 className="text-2xl font-bold mt-12 mb-2">Tuning Pakete</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl">
-            {$1
+            [
               { name: "3x VCDS Codierungen", price: "100 €" },
               { name: "Stage 1+", price: "750 €" },
               { name: "Eco Paket", price: "750 €" },
