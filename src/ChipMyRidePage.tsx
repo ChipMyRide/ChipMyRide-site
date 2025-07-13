@@ -51,8 +51,31 @@ export default function ChipMyRidePage() {
         </div>
 
         <h2 className="text-8xl font-bold mt-16 mb-4 text-center text-orange-500">Tuning Pakete</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl mx-auto place-items-center">
-          {["Power Paket","Stage 1+","VCDS Kombo","Eco Paket","Abschaltungspaket"].map((name, index) => {
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl mx-auto">
+          {[
+            { name: "Power Paket", price: "900 €" },
+            { name: "Stage 1+", price: "750 €" },
+            { name: "VCDS Kombo", price: "100 €", center: true },
+            { name: "Eco Paket", price: "750 €" },
+            { name: "Abschaltungspaket", price: "850 €" },
+          ].map((item, index) => {
+            const colSpan = item.center ? "md:col-span-2 justify-center" : "";
+            return (
+              <div
+                key={index}
+                className={`flex items-center justify-between bg-cyan-600 text-white rounded-2xl p-4 hover:bg-cyan-500 transition duration-300 ${colSpan}`}
+              >
+                <span className="font-bold text-left w-1/3">{item.name}</span>
+                <span className="text-center w-1/3 font-bold">{item.price}</span>
+                <a
+                  href="#"
+                  className="mt-1 px-4 py-1 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl text-sm text-center"
+                >
+                  Infos
+                </a>
+              </div>
+            );
+          })}.map((name, index) => {
             const prices = ["900 €","750 €","100 €","750 €","850 €"];
             return (
               <div
