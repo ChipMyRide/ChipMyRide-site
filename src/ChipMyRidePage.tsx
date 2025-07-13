@@ -12,7 +12,7 @@ export default function ChipMyRidePage() {
         <img
           src="/logo-banner.png"
           alt="Chip My Ride Banner"
-          className="h-[70%] object-contain"
+          className="h-[80%] w-[100%] object-contain"
         />
       </header>
 
