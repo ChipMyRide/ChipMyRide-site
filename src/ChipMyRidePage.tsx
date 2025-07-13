@@ -89,13 +89,13 @@ export default function ChipMyRidePage() {
           >
             Termin sichern
           </a>
-                <h2 className="text-4xl font-bold mt-16 mb-4 text-center text-orange-500">Fahrzeugliste</h2>
+                <h2 className="text-4xl font-bold mt-16 mb-4 text-center text-orange-500">Tuning Konfigurator & Verfügbarkeit</h2>
         <div className="text-center space-y-8">
           <div className="flex flex-col md:flex-row justify-center gap-4">
             <div className="bg-cyan-600 text-white rounded-xl p-6 w-full md:w-96 hover:bg-cyan-500 transition flex flex-col justify-between">
               <div>
                 <h3 className="text-xl font-semibold mb-2">Chip My Ride Fahrzeugliste</h3>
-                <p className="text-sm mb-4">Fahrzeugabgleich bei unserem Partner Alientech.<br/>Hier kannst du prüfen, ob dein Auto bei uns optimiert werden kann.</p>
+                <p className="text-sm mb-6">Fahrzeugabgleich bei unserem Partner Alientech.<br/>Hier kannst du prüfen, ob dein Auto bei uns optimiert werden kann.</p>
               </div>
               <a
                 href="https://www.alientech-tools.com/vehicles/"
