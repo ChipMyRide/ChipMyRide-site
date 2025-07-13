@@ -13,10 +13,10 @@ export default function ChipMyRidePage() {
     >
       <header className="w-full flex justify-center items-center">
         <img
-          src="/chipmyride-banner-728x90.png"
-          alt="Chip My Ride Full Banner"
-          className="w-full h-auto object-contain"
-          style={{ maxHeight: "180px" }}
+          src="/chip-right-banner-728x90.png"
+          alt="Chip My Ride Banner"
+          className="w-full object-contain"
+          style={{ height: "auto", maxWidth: "1920px" }}
         />
       </header>
 
