@@ -1,5 +1,4 @@
-// CHIPMYRIDE – Offizielle Website (V1.1)
-// Jetzt mit Banner-Logo statt Einzelbild, clean integriert
+// CHIPMYRIDE – Offizielle Website (Banner Style)
 
 import { useState } from "react";
 import { motion } from "framer-motion";
@@ -9,14 +8,12 @@ export default function ChipMyRidePage() {
 
   return (
     <main className="min-h-screen bg-black text-white font-sans bg-[url('/leiterbahn-bg-cleaned.png')] bg-cover bg-fixed">
-      <header className="w-full bg-black bg-opacity-80 shadow-lg">
-        <div className="max-w-7xl mx-auto px-4 py-6">
-          <img
-            src="/logo.png"
-            alt="Chip My Ride Banner"
-            className="mx-auto w-full max-w-3xl"
-          />
-        </div>
+      <header className="w-full bg-gray-800 bg-opacity-90 shadow-md h-[25vh] flex items-center justify-center">
+        <img
+          src="/logo.png"
+          alt="Chip My Ride Banner"
+          className="h-[70%] object-contain"
+        />
       </header>
 
       <section className="max-w-4xl mx-auto py-12 px-4 grid gap-6">
