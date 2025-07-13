@@ -19,21 +19,10 @@ export default function ChipMyRidePage() {
 
         {/* Preis-Kacheln */}
         <div className="flex flex-col items-center mt-12 px-4">
-          <h2 className="text-4xl font-bold mb-4 text-orange-500">Tuning Preise</h2>
+          <h2 className="text-8xl font-bold mb-4 text-orange-500">Tuning Preise</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl">
-            {[ 
-              { name: "Stage 1", price: "550 €" },
-              { name: "Stage 2", price: "750 €" },
-              { name: "Stage 3", price: "950 €" },
-              { name: "Eco Tuning", price: "450 €" },
-              { name: "Pops & Bangs", price: "450 €" },
-              { name: "Vmax Aufhebung / Drehzahlbegrenzer", price: "150 €" },
-              { name: "DPF / AGR / OPF Abschaltung", price: "350 €" },
-              { name: "Getriebeoptimierung", price: "350 €" },
-              { name: "VCDS Codierung", price: "50 €" },
-              { name: "3x VCDS Codierungen", price: "100 €" },
-            ].map((item, index) => (
+            [{"name":"Stage 1","price":"550 €"},{"name":"Stage 2","price":"750 €"},{"name":"Stage 3","price":"950 €"},{"name":"Eco Tuning","price":"450 €"},{"name":"Pops & Bangs","price":"450 €"},{"name":"Vmax Aufhebung / Drehzahlbegrenzer","price":"150 €"},{"name":"DPF / AGR / OPF Abschaltung","price":"350 €"},{"name":"Getriebeoptimierung","price":"350 €"},{"name":"VCDS Codierung","price":"50 €"},{"name":"3x VCDS Codierungen","price":"100 €"}].map((item, index) => (
               <div
                 key={index}
                 className="flex items-center justify-between bg-cyan-600 text-white rounded-xl p-4 hover:bg-cyan-500 transition duration-300"
@@ -58,14 +47,9 @@ export default function ChipMyRidePage() {
           </a>
         </div>
 
-        <h2 className="text-4xl font-bold mt-16 mb-4 text-center text-orange-500">Tuning Pakete</h2>
+        <h2 className="text-8xl font-bold mt-16 mb-4 text-center text-orange-500">Tuning Pakete</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl mx-auto">
-          {[ 
-            { name: "Power Paket", price: "900 €" },
-            { name: "Stage 1+", price: "750 €" },
-            { name: "Eco Paket", price: "750 €" },
-            { name: "Abschaltungspaket", price: "850 €" },
-          ].map((item, index) => (
+          [{"name":"Power Paket","price":"900 €"},{"name":"Stage 1+","price":"750 €"},{"name":"Eco Paket","price":"750 €"},{"name":"Abschaltungspaket","price":"850 €"}].map((item, index) => (
             <div
               key={index}
               className="flex items-center justify-between bg-cyan-600 text-white rounded-xl p-4 hover:bg-cyan-500 transition duration-300"
@@ -90,7 +74,7 @@ export default function ChipMyRidePage() {
             Termin sichern
           </a>
 
-          <h2 className="text-4xl font-bold mt-16 mb-4 text-center text-orange-500">Tuning Konfigurator & Verfügbarkeit</h2>
+          <h2 className="text-8xl font-bold mt-16 mb-4 text-center text-orange-500">Tuning Konfigurator & Verfügbarkeit</h2>
           <div className="flex flex-col md:flex-row justify-center gap-4">
             <div className="bg-cyan-600 text-white rounded-xl p-6 w-full md:w-96 hover:bg-cyan-500 transition flex flex-col justify-between">
               <div>
