@@ -101,15 +101,26 @@ export default function ChipMyRidePage() {
                 href="https://www.alientech-tools.com/vehicles/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-6 py-2 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl"
+                className="inline-block mt-auto px-6 py-2 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl"
               >
                 Fahrzeugliste öffnen
               </a>
             </div>
-              
-            </div>
 
-            <div className="bg-cyan-600 text-white rounded-xl p-6 w-full md:w-96 hover:bg-cyan-500 transition">
+            <div className="bg-cyan-600 text-white rounded-xl p-6 w-full md:w-96 hover:bg-cyan-500 transition flex flex-col justify-between">
+              <div>
+                <h3 className="text-xl font-semibold mb-2">Übersicht über das Potenzial deines Autos</h3>
+                <p className="text-sm mb-4">File-Abgleich durch unseren Partner Tuningfiles Germany.</p>
+              </div>
+              <a
+                href="https://www.alientech-tools.com/tuning-database/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-auto px-6 py-2 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl"
+              >
+                Konfigurator öffnen
+              </a>
+            </div>
               <h3 className="text-xl font-semibold mb-2">Übersicht über das Potenzial deines Autos</h3>
               <p className="text-sm mb-4">File-Abgleich durch unseren Partner Tuningfiles Germany.</p>
               <a
