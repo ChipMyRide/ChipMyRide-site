@@ -1,5 +1,5 @@
 // CHIPMYRIDE – Offizielle Website (V1)
-// Jetzt mit echten Inhalten: Logo, Preisliste, Kontaktformular und Leiterbahn-Background
+// Jetzt mit großem Logo, ohne zusätzlichen Slogan, mit sauberem Hintergrund
 
 import { useState } from "react";
 import { motion } from "framer-motion";
@@ -8,23 +8,13 @@ export default function ChipMyRidePage() {
   const [submitted, setSubmitted] = useState(false);
 
   return (
-    <main className="min-h-screen bg-black text-white font-sans bg-[url('/leiterbahn-bg.jpg')] bg-cover bg-fixed">
+    <main className="min-h-screen bg-black text-white font-sans bg-[url('/leiterbahn-bg-cleaned.png')] bg-cover bg-fixed">
       <section className="py-12 px-6 text-center">
         <img
           src="/logo.png"
           alt="Chip My Ride Logo"
-          className="mx-auto mb-4 w-40"
+          className="mx-auto mb-8 w-72"
         />
-        <motion.h1
-          className="text-4xl md:text-6xl font-bold tracking-tight"
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-        >
-          CHIP MY RIDE
-        </motion.h1>
-        <p className="mt-4 text-lg md:text-xl text-gray-300">
-          Individuelles Chiptuning. Keine Massenware. 100 % Leidenschaft.
-        </p>
       </section>
 
       <section className="max-w-4xl mx-auto py-12 px-4 grid gap-6">
