@@ -21,8 +21,8 @@ export default function ChipMyRidePage() {
         <div className="flex flex-col items-center mt-12 px-4">
           <h2 className="text-8xl font-bold mb-4 text-orange-500">Tuning Preise</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl">
-            {["Stage 1","Stage 2","Stage 3","Eco Tuning","Pops & Bangs","Vmax Aufhebung / Drehzahlbegrenzer","DPF / AGR / OPF Abschaltung","Getriebeoptimierung","VCDS Codierung","3x VCDS Codierungen"].map((name, index) => {
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl mx-auto justify-center">
+            {["Stage 1","Stage 2","Stage 3","Eco Tuning","Pops & Bangs","Vmax Aufhebung / Drehzahlbegrenzer","DPF / AGR / OPF Abschaltung","Getriebeoptimierung","VCDS Codierung"].map((name, index) => {
               const prices = ["550 €","750 €","950 €","450 €","450 €","150 €","350 €","350 €","50 €","100 €"];
               return (
                 <div
@@ -52,8 +52,8 @@ export default function ChipMyRidePage() {
 
         <h2 className="text-8xl font-bold mt-16 mb-4 text-center text-orange-500">Tuning Pakete</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl mx-auto">
-          {["Power Paket","Stage 1+","Eco Paket","Abschaltungspaket"].map((name, index) => {
-            const prices = ["900 €","750 €","750 €","850 €"];
+          {["Power Paket","Stage 1+","Eco Paket","Abschaltungspaket","VCDS Kombo"].map((name, index) => {
+            const prices = ["900 €","750 €","750 €","850 €","100 €"];
             return (
               <div
                 key={index}
