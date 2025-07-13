@@ -13,10 +13,10 @@ export default function ChipMyRidePage() {
     >
       <header className="w-full flex justify-center items-center">
         <img
-  src="/chipmyride-banner.png"
-  alt="Chip My Ride Full Banner"
-  className="w-full max-w-screen object-contain aspect-[728/90]"
-/>
+          src="/chipmyride-banner.png"
+          alt="Chip My Ride Full Banner"
+          className="w-full max-w-screen object-contain aspect-[728/90]"
+        />
 
       </header>
 
