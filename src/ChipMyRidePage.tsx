@@ -61,7 +61,7 @@ export default function ChipMyRidePage() {
 
           <h2 className="text-2xl font-bold mt-12 mb-2">Tuning Pakete</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl">
-            [
+            {[ 
               { name: "3x VCDS Codierungen", price: "100 €" },
               { name: "Power Paket", price: "900 €" },
               { name: "Stage 1+", price: "750 €" },
@@ -93,45 +93,4 @@ export default function ChipMyRidePage() {
       </div>
     </div>
   );
-}
-
-// Platzhalterseiten für Tuning-Details
-export function Stage1() {
-  return <div className="text-white p-8">Stage 1 Optimierung – Details folgen…</div>;
-}
-export function Stage2() {
-  return <div className="text-white p-8">Stage 2 Optimierung – Details folgen…</div>;
-}
-export function Stage3() {
-  return <div className="text-white p-8">Stage 3 Optimierung – Details folgen…</div>;
-}
-export function Ecotuning() {
-  return <div className="text-white p-8">Eco Tuning – Details folgen…</div>;
-}
-export function PopsBangs() {
-  return <div className="text-white p-8">Pops & Bangs – Details folgen…</div>;
-}
-export function Vmaxaufhebung() {
-  return <div className="text-white p-8">Vmax Aufhebung – Details folgen…</div>;
-}
-export function DpfAgroopfabschaltung() {
-  return <div className="text-white p-8">DPF / AGR / OPF Abschaltung – Details folgen…</div>;
-}
-export function Getriebeoptimierung() {
-  return <div className="text-white p-8">Getriebeoptimierung – Details folgen…</div>;
-}
-export function Vcdscodierung() {
-  return <div className="text-white p-8">VCDS Codierung – Details folgen…</div>;
-}
-export function Powerpaket() {
-  return <div className="text-white p-8">Power Paket – Details folgen…</div>;
-}
-export function Stage1plus() {
-  return <div className="text-white p-8">Stage 1+ – Details folgen…</div>;
-}
-export function Ecopaket() {
-  return <div className="text-white p-8">Eco Paket – Details folgen…</div>;
-}
-export function Abschaltungspaket() {
-  return <div className="text-white p-8">Abschaltungspaket – Details folgen…</div>;
 }
