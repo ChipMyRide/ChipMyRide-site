@@ -9,7 +9,7 @@ export default function ChipMyRidePage() {
   return (
     <main
       className="min-h-screen bg-black text-white font-sans bg-cover bg-fixed"
-      style={{ backgroundImage: "url('/leiterbahn-bg.png')" }}
+      style={{ backgroundImage: "url('/leiterbahn-bg-cleaned.png')" }}
     >
       <header className="w-full h-[25vh] flex items-center justify-center">
         <img
@@ -75,3 +75,4 @@ export default function ChipMyRidePage() {
     </main>
   );
 }
+
