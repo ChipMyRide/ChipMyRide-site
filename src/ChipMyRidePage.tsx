@@ -121,16 +121,7 @@ export default function ChipMyRidePage() {
                 Konfigurator öffnen
               </a>
             </div>
-              <h3 className="text-xl font-semibold mb-2">Übersicht über das Potenzial deines Autos</h3>
-              <p className="text-sm mb-4">File-Abgleich durch unseren Partner Tuningfiles Germany.</p>
-              <a
-                href="https://www.alientech-tools.com/tuning-database/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-6 py-2 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl"
-              >
-                Konfigurator öffnen
-              </a>
+              
             </div>
           </div>
         </div>
