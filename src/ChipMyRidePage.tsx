@@ -1,4 +1,4 @@
-// CHIPMYRIDE – Offizielle Website (Banner Style)
+// CHIPMYRIDE – Offizielle Website (Banner Style getrennt)
 
 import { useState } from "react";
 import { motion } from "framer-motion";
@@ -10,7 +10,7 @@ export default function ChipMyRidePage() {
     <main className="min-h-screen bg-black text-white font-sans bg-[url('/leiterbahn-bg-cleaned.png')] bg-cover bg-fixed">
       <header className="w-full bg-gray-800 bg-opacity-90 shadow-md h-[25vh] flex items-center justify-center">
         <img
-          src="/logo.png"
+          src="/logo-banner.png"
           alt="Chip My Ride Banner"
           className="h-[70%] object-contain"
         />
