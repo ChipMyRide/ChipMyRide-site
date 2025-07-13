@@ -22,18 +22,27 @@ export default function ChipMyRidePage() {
           <h2 className="text-8xl font-bold mb-4 text-orange-500">Tuning Preise</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl mx-auto">
-            {["Stage 1","Stage 2","Stage 3","Eco Tuning","Pops & Bangs","Vmax Aufhebung / Drehzahlbegrenzer","DPF / AGR / OPF Abschaltung","Getriebeoptimierung","VCDS Kodierung"].map((name, index) => {
-              const prices = ["550 €","750 €","950 €","450 €","450 €","150 €","350 €","350 €","50 €"];
+            {[
+              { name: "Stage 1", price: "550 €", link: "/tuning/stage1" },
+              { name: "Stage 2", price: "750 €" },
+              { name: "Stage 3", price: "950 €" },
+              { name: "Eco Tuning", price: "450 €" },
+              { name: "Pops & Bangs", price: "450 €" },
+              { name: "Vmax Aufhebung / Drehzahlbegrenzer", price: "150 €" },
+              { name: "DPF / AGR / OPF Abschaltung", price: "350 €" },
+              { name: "Getriebeoptimierung", price: "350 €" },
+              { name: "VCDS Kodierung", price: "50 €" },
+            ].map((item, index) => {
               const centerIndex = 8;
               return (
-              <div
-                key={index}
-                className={`flex items-center justify-between bg-cyan-600 text-white rounded-2xl p-4 hover:bg-cyan-500 transition duration-300 ${index === centerIndex ? 'md:col-span-2 justify-center' : ''}`}
-              >
-                  <span className="font-bold text-left w-1/3">{name}</span>
-                <span className="text-left w-1/3 font-bold">{prices[index]}</span>
+                <div
+                  key={index}
+                  className={`flex items-center justify-between bg-cyan-600 text-white rounded-2xl p-4 hover:bg-cyan-500 transition duration-300 ${index === centerIndex ? 'md:col-span-2 justify-center' : ''}`}
+                >
+                  <span className="font-bold text-left w-1/3">{item.name}</span>
+                  <span className="text-left w-1/3 font-bold">{item.price}</span>
                   <a
-                    href="#"
+                    href={item.link || "#"}
                     className="mt-1 px-4 py-1 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl text-sm text-center"
                   >
                     Infos
