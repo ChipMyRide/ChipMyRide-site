@@ -116,7 +116,7 @@ export default function ChipMyRidePage() {
                 href="https://www.alientech-tools.com/tuning-database/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mt-auto px-6 py-2 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl"
+                className="mt-6 px-6 py-2 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl"
               >
                 Konfigurator öffnen
               </a>
