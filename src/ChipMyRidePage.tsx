@@ -5,7 +5,7 @@ export default function ChipMyRidePage() {
     <div className="min-h-screen bg-black text-white bg-cover bg-fixed" style={{ backgroundImage: "url('/leiterbahn-bg-cleaned.png')" }}>
       <div className="w-full max-w-screen-xl mx-auto py-8">
         <img
-          src="/chipmyride-logo.png"
+          src="/chipmyride-banner.png"
           alt="Chip My Ride Logo"
           className="h-32 mx-auto rounded-2xl"
         />
