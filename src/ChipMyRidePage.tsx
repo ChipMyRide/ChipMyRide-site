@@ -28,10 +28,10 @@ export default function ChipMyRidePage() {
               return (
               <div
                 key={index}
-                className={`flex flex-col items-center text-center bg-cyan-600 text-white rounded-2xl p-4 hover:bg-cyan-500 transition duration-300 $1`}
+                className={`flex items-center justify-between bg-cyan-600 text-white rounded-2xl p-4 hover:bg-cyan-500 transition duration-300 ${index === centerIndex ? 'md:col-span-2 justify-center' : ''}`}
               >
-                  <span className="font-bold text-xl mb-2">{name}</span>
-                <span className="text-lg font-bold mb-2">{prices[index]}</span>
+                  <span className="font-bold text-left w-1/3">{name}</span>
+                <span className="text-center w-1/3 font-bold">{prices[index]}</span>
                   <a
                     href="#"
                     className="mt-1 px-4 py-1 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl text-sm text-center"
