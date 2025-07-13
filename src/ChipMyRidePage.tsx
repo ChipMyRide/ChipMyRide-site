@@ -68,7 +68,7 @@ export default function ChipMyRidePage() {
           ].map((item, index) => (
             <div
               key={index}
-              className="flex items-center justify-between bg-cyan-900 text-white rounded-xl p-4 hover:bg-cyan-800 transition duration-300"
+              className="flex items-center justify-between bg-cyan-600 text-white rounded-xl p-4 hover:bg-cyan-600 transition duration-300"
             >
               <span className="font-bold text-left w-1/3">{item.name}</span>
               <span className="text-center w-1/3 font-bold">{item.price}</span>
