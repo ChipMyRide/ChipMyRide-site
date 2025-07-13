@@ -14,15 +14,13 @@ export default function ChipMyRidePage() {
 
         {/* Slogan unter dem Logo */}
         <div className="text-center mt-4">
-          <p className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-orange-500">Verpass deinem Auto mehr Charakter.</p>
-
+          <p className="text-xl font-semibold text-orange-400">Software. Performance. Leidenschaft.</p>
         </div>
 
         {/* Preis-Kacheln */}
         <div className="flex flex-col gap-6 items-center mt-12 px-4">
           <h2 className="text-2xl font-bold mb-2">Tuning Preise</h2>
-          $1
-            {/* 3x VCDS Codierungen zentriert */}
+                      {/* 3x VCDS Codierungen zentriert */}
             <div className="flex items-center justify-between bg-cyan-900 text-white rounded-xl p-4 hover:bg-cyan-800 transition duration-300 md:col-span-2 md:mx-auto max-w-md">
               <span className="font-bold text-left w-1/3 text-white">3x VCDS Codierungen</span>
               <span className="text-center w-1/3 font-bold text-white">100 €</span>
