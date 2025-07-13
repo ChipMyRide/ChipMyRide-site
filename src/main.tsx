@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ChipMyRidePage from './ChipMyRidePage.tsx';
-import Stage1InfoPage from './Stage1InfoPage.tsx'; // <— deine Info-Seite
+import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+import ChipMyRidePage from './ChipMyRidePage';
+import Stage1InfoPage from './Stage1InfoPage';
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
