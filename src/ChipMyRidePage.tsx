@@ -15,7 +15,8 @@ export default function ChipMyRidePage() {
         <img
           src="/chipmyride-banner.png"
           alt="Chip My Ride Full Banner"
-          className="w-full h-auto max-h-[300px] object-contain"
+          className="w-full h-auto object-contain"
+          style={{ maxHeight: "400px" }}
         />
       </header>
 
