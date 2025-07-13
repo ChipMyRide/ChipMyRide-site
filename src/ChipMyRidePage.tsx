@@ -22,21 +22,24 @@ export default function ChipMyRidePage() {
           <h2 className="text-8xl font-bold mb-4 text-orange-500">Tuning Preise</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl">
-            [{"name":"Stage 1","price":"550 €"},{"name":"Stage 2","price":"750 €"},{"name":"Stage 3","price":"950 €"},{"name":"Eco Tuning","price":"450 €"},{"name":"Pops & Bangs","price":"450 €"},{"name":"Vmax Aufhebung / Drehzahlbegrenzer","price":"150 €"},{"name":"DPF / AGR / OPF Abschaltung","price":"350 €"},{"name":"Getriebeoptimierung","price":"350 €"},{"name":"VCDS Codierung","price":"50 €"},{"name":"3x VCDS Codierungen","price":"100 €"}].map((item, index) => (
-              <div
-                key={index}
-                className="flex items-center justify-between bg-cyan-600 text-white rounded-xl p-4 hover:bg-cyan-500 transition duration-300"
-              >
-                <span className="font-bold text-left w-1/3">{item.name}</span>
-                <span className="text-center w-1/3 font-bold">{item.price}</span>
-                <a
-                  href="#"
-                  className="mt-1 px-4 py-1 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl text-sm text-center"
+            {["Stage 1","Stage 2","Stage 3","Eco Tuning","Pops & Bangs","Vmax Aufhebung / Drehzahlbegrenzer","DPF / AGR / OPF Abschaltung","Getriebeoptimierung","VCDS Codierung","3x VCDS Codierungen"].map((name, index) => {
+              const prices = ["550 €","750 €","950 €","450 €","450 €","150 €","350 €","350 €","50 €","100 €"];
+              return (
+                <div
+                  key={index}
+                  className="flex items-center justify-between bg-cyan-600 text-white rounded-xl p-4 hover:bg-cyan-500 transition duration-300"
                 >
-                  Infos
-                </a>
-              </div>
-            ))}
+                  <span className="font-bold text-left w-1/3">{name}</span>
+                  <span className="text-center w-1/3 font-bold">{prices[index]}</span>
+                  <a
+                    href="#"
+                    className="mt-1 px-4 py-1 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl text-sm text-center"
+                  >
+                    Infos
+                  </a>
+                </div>
+              );
+            })}
           </div>
 
           <a
@@ -49,21 +52,24 @@ export default function ChipMyRidePage() {
 
         <h2 className="text-8xl font-bold mt-16 mb-4 text-center text-orange-500">Tuning Pakete</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl mx-auto">
-          [{"name":"Power Paket","price":"900 €"},{"name":"Stage 1+","price":"750 €"},{"name":"Eco Paket","price":"750 €"},{"name":"Abschaltungspaket","price":"850 €"}].map((item, index) => (
-            <div
-              key={index}
-              className="flex items-center justify-between bg-cyan-600 text-white rounded-xl p-4 hover:bg-cyan-500 transition duration-300"
-            >
-              <span className="font-bold text-left w-1/3">{item.name}</span>
-              <span className="text-center w-1/3 font-bold">{item.price}</span>
-              <a
-                href="#"
-                className="mt-1 px-4 py-1 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl text-sm text-center"
+          {["Power Paket","Stage 1+","Eco Paket","Abschaltungspaket"].map((name, index) => {
+            const prices = ["900 €","750 €","750 €","850 €"];
+            return (
+              <div
+                key={index}
+                className="flex items-center justify-between bg-cyan-600 text-white rounded-xl p-4 hover:bg-cyan-500 transition duration-300"
               >
-                Infos
-              </a>
-            </div>
-          ))}
+                <span className="font-bold text-left w-1/3">{name}</span>
+                <span className="text-center w-1/3 font-bold">{prices[index]}</span>
+                <a
+                  href="#"
+                  className="mt-1 px-4 py-1 bg-orange-500 hover:bg-orange-600 text-black font-semibold rounded-xl text-sm text-center"
+                >
+                  Infos
+                </a>
+              </div>
+            );
+          })}
         </div>
 
         <div className="text-center">
@@ -74,7 +80,7 @@ export default function ChipMyRidePage() {
             Termin sichern
           </a>
 
-          <h2 className="text-8xl font-bold mt-16 mb-4 text-center text-orange-500">Tuning Konfigurator & Verfügbarkeit</h2>
+          <h2 className="text-8xl font-bold mt-16 mb-8 text-center text-orange-500">Tuning Konfigurator & Verfügbarkeit</h2>
           <div className="flex flex-col md:flex-row justify-center gap-4">
             <div className="bg-cyan-600 text-white rounded-xl p-6 w-full md:w-96 hover:bg-cyan-500 transition flex flex-col justify-between">
               <div>
