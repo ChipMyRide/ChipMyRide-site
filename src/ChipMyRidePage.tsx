@@ -4,11 +4,13 @@ export default function ChipMyRidePage() {
   return (
     <div className="min-h-screen bg-black text-white bg-cover bg-fixed" style={{ backgroundImage: "url('/leiterbahn-bg-cleaned.png')" }}>
       <div className="w-full max-w-screen-xl mx-auto py-8">
-        <img
-          src="/chipmyride-banner.png"
-          alt="Chip My Ride Logo"
-          className="h-32 mx-auto rounded-2xl"
-        />
+        <div className="flex justify-center">
+          <img
+            src="/chipmyride-banner.png"
+            alt="Chip My Ride Banner"
+            className="h-48 rounded-2xl ml-12"
+          />
+        </div>
         <div className="p-4">
           <h2 className="text-xl font-bold mt-8 mb-4">Tuning Preise</h2>
           <ul className="space-y-2">
