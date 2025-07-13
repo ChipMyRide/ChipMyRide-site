@@ -8,11 +8,11 @@ export default function ChipMyRidePage() {
 
   return (
     <main className="min-h-screen bg-black text-white font-sans bg-[url('/leiterbahn-bg-cleaned.png')] bg-cover bg-fixed">
-      <header className="w-full bg-gray-800 bg-opacity-90 shadow-md h-[25vh] flex items-center justify-center">
+      <header className="w-full shadow-md h-[25vh] flex items-center justify-center">
         <img
           src="/logo-banner.png"
           alt="Chip My Ride Banner"
-          className="h-[80%] w-[100%] object-contain"
+          className="h-full w-[75%] object-contain"
         />
       </header>
 
