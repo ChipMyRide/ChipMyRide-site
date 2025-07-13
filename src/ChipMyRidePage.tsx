@@ -14,12 +14,12 @@ export default function ChipMyRidePage() {
 
         {/* Slogan unter dem Logo */}
         <div className="text-center mt-4">
-          <p className="text-xl font-semibold text-white">Verpass deinem Auto mehr Charakter.</p>
+          <p className="text-4xl font-bold text-white">Verpass deinem Auto mehr Charakter.</p>
         </div>
 
         {/* Preis-Kacheln */}
         <div className="flex flex-col items-center mt-12 px-4">
-          <h2 className="text-2xl font-bold mb-4">Tuning Preise</h2>
+          <h2 className="text-2xl font-bold mb-4 text-orange-500">Tuning Preise</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl">
             {[ 
@@ -58,7 +58,7 @@ export default function ChipMyRidePage() {
           </a>
         </div>
 
-        <h2 className="text-2xl font-bold mt-16 mb-4 text-center">Tuning Pakete</h2>
+        <h2 className="text-2xl font-bold mt-16 mb-4 text-center text-orange-500">Tuning Pakete</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl mx-auto">
           {[ 
             { name: "Power Paket", price: "900 €" },
