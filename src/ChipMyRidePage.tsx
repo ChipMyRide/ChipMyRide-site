@@ -2,13 +2,13 @@ import './index.css';
 
 export default function ChipMyRidePage() {
   return (
-    <div className="min-h-screen bg-black text-white bg-cover bg-fixed" style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/leiterbahn-bg-cleaned.png')" }}>
+    <div className="min-h-screen bg-black text-white bg-cover bg-fixed" style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/leiterbahn-bg-cleaned.png')" }}>
       <div className="w-full max-w-screen-xl mx-auto pt-0">
         <div className="w-full">
           <img
             src="/chipmyride-banner.png"
             alt="Chip My Ride Banner"
-            className="h-64 w-full object-contain"
+            className="h-64 w-full object-contain rounded-2xl"
           />
         </div>
 
