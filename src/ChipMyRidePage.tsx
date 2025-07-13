@@ -11,11 +11,11 @@ export default function ChipMyRidePage() {
       className="min-h-screen bg-black text-white font-sans bg-cover bg-fixed"
       style={{ backgroundImage: "url('/leiterbahn-bg-cleaned.png')" }}
     >
-      <header className="w-full h-[25vh]">
+      <header className="w-full flex justify-center items-center h-[25vh]">
         <img
           src="/chipmyride-banner.png"
           alt="Chip My Ride Full Banner"
-          className="w-full h-full object-cover"
+          className="w-[75%] h-full object-contain"
         />
       </header>
 
