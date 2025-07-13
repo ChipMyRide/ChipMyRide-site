@@ -14,7 +14,8 @@ export default function ChipMyRidePage() {
 
         {/* Slogan unter dem Logo */}
         <div className="text-center mt-4">
-          <p className="text-xl font-semibold text-orange-400">Software. Performance. Leidenschaft.</p>
+          <p className="text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-orange-500">Verpass deinem Auto mehr Charakter.</p>
+
         </div>
 
         {/* Preis-Kacheln */}
