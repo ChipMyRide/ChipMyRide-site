@@ -6,7 +6,10 @@ function App() {
   return (
     <Router>
       <Routes>
+        {/* Startseite */}
         <Route path="/" element={<ChipMyRidePage />} />
+
+        {/* Stage 1 Unterseite */}
         <Route path="/tuning/stage1" element={<Stage1InfoPage />} />
       </Routes>
     </Router>
