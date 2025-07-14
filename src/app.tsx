@@ -1,4 +1,3 @@
-// src/App.tsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ChipMyRidePage from './ChipMyRidePage';
 import Stage1InfoPage from './Stage1InfoPage';
