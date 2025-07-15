@@ -3,5 +3,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // <-- unbedingt so lassen bei Vercel Root Deployment
+  root: 'public',         // <-- Das ist entscheidend!
+  build: {
+    outDir: '../dist',    // Damit das Output außerhalb von /public liegt
+    emptyOutDir: true
+  }
 })
